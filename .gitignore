@@ -1,3 +1,5 @@
+.DS_Store
+.Rhistory
 EBL_dating/ignore/
 EBL_dating/input_examples/ignore/
 EBL_reconstruction/input_examples/ignore/
