@@ -11,7 +11,6 @@ The details were described in *"Dating analysis for the integrated age of EBLs"*
 
 - EBL_phylogeny  
 The details were described in *"Phylogenetic analysis"* in our paper.  
-<<<<<<< HEAD
 
 - EBL_diversity  
 The details were described in *"Assessment of genetic diversity of ancient bornaviral sequences"* in our paper.  
