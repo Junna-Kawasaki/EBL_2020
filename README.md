@@ -15,5 +15,3 @@ The details were described in *"Phylogenetic analysis"* in our paper.
 
 - EBL_diversity  
 The details were described in *"Assessment of genetic diversity of ancient bornaviral sequences"* in our paper.  
-=======
->>>>>>> 5673afe381376fcb83873a7c8f0342061ae94d54
