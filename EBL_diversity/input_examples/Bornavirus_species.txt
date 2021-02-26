@@ -1,0 +1,15 @@
+N_YP_009268899.1_Bornaviridae_Orthobornavirus	Parrot bornavirus 7	Psittaciform 1 orthobornavirus   
+N_YP_009268917.1_Bornaviridae_Orthobornavirus	Borna disease virus 2	Mammalian 1 orthobornavirus   
+N_YP_009269413.1_Bornaviridae_Orthobornavirus	Variegated squirrel bornavirus 1	Mammalian 2 orthobornavirus   
+N_NP_042020.1_Bornaviridae_Orthobornavirus	Borna disease virus 1	Mammalian 1 orthobornavirus   
+N_YP_009268911.1_Bornaviridae_Orthobornavirus	Aquatic bird bornavirus 2	Waterbird 1 orthobornavirus 
+N_YP_009512934.1_Bornaviridae_Orthobornavirus	Parrot bornavirus 5	Psittaciform 2 orthobornavirus   
+N_YP_009237642.1_Bornaviridae_Orthobornavirus	Aquatic bird bornavirus 	Waterbird 1 orthobornavirus 
+N_YP_009505423.1_Bornaviridae_Orthobornavirus	Estrildid finch bornavirus 1	Passeriform 2 orthobornavirus   
+N_YP_009268893.1_Bornaviridae_Orthobornavirus	Parrot bornavirus 4	Psittaciform 1 orthobornavirus   
+N_YP_009512928.1_Bornaviridae_Orthobornavirus	Parrot bornavirus 1	Psittaciform 1 orthobornavirus   
+N_YP_009041456.1_Bornaviridae_Orthobornavirus	Canary bornavirus 3	Passeriform 1 orthobornavirus   
+N_YP_009165492.1_Bornaviridae_Orthobornavirus	Canary bornavirus 2	Passeriform 1 orthobornavirus   
+N_YP_009174176.1_Bornaviridae_Orthobornavirus	Parrot bornavirus 2	Psittaciform 1 orthobornavirus   
+N_YP_009055058.1_Bornaviridae_Orthobornavirus	Loveridges garter snake virus 1	Elapid 1 orthobornavirus   
+N_YP_009268905.1_Bornaviridae_Orthobornavirus	Canary bornavirus 1	Passeriform 1 orthobornavirus   
