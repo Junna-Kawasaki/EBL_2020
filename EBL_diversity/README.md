@@ -1,6 +1,6 @@
 # Assessment of genetic diversity of ancient bornaviral sequences   
 
-## Discription  
+## Discriptions  
 To calculate genetic distance between ancient bornaviral sequences, please try the program: **EBL_diversity_batch.sh**.  
 
 - This program provides an example to calculate genetic distance between ancient bornaviral N protein sequences.  

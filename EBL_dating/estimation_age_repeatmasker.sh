@@ -41,4 +41,4 @@ RepeatMasker \
 python \
 	fasta_remove_lower_case.py \
 	${output}${file}_${flanking}kb_nucl.fasta.masked
-	
+	${output}${file}_${flanking}kb_nucl_RM.fasta

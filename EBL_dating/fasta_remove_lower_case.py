@@ -4,7 +4,7 @@ import sys, re
 argvs = sys.argv
 
 fasta = open(argvs[1])
-out_name = re.split('[/.]',argvs[1])[-3]
+out_name = argvs[2]
 
 seq_d = {}
 for line in fasta:

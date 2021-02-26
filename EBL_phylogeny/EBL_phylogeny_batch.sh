@@ -10,21 +10,21 @@ len=100
 mkdir ${output}
 
 # 1. Select EBL sequences 
-## based on the length
+## based on the length (longer than 100 aa)
 seqkit seq -m ${len} \
 	${input}${file}.fasta.gz \
 	> ${output}${file}_${len}.fasta
 
-## remove redundancy
+## remove sequence redundancy
 seqkit rmdup -s ${output}${file}_${len}.fasta \
 	-o ${output}${file}_${len}_rmdup.fasta
 
 # 2. make multiple sequence alignment	
-## alignment virus proteins
+## make alignment using virus proteins
 mafft --auto ${input}${virus_f}.fasta  \
   > ${output}${virus_f}_mafft.fasta
 
-## alignment using virus proteins and EBLs
+## make alignment using virus proteins and EBLs
 mafft --keeplength \
 	--addfragments ${output}${file}_${len}_rmdup.fasta \
 	--auto ${output}${virus_f}_mafft.fasta \

@@ -10,10 +10,10 @@ path = argvs[1]
 gaps = argvs[2]
 prop = argvs[3]
 
-site_coverage = 1- float(gaps) # exclude sites where over ${gaps} of sequences were gaps
+site_coverage = 1- float(gaps) # exclude sites where over ${gaps}% of sequences were gaps
 gap_thresh = 20 # Upper limit of consecutive gaps
 len_block = 10 # Lower limit for consecutive alignment sites
-prop_thresh = float(prop) #  remove sequences with less than ${prop} of the total alignment sites
+prop_thresh = float(prop) #  remove sequences with less than ${prop}% of the total alignment sites
 
 # OPTION. specify sequences that you do not want to include in the coverage calculation.
 try:
@@ -26,7 +26,7 @@ try:
 except:
 	pass
 
-# 1. read multiple alignement sequences
+# 1. read multiple sequence alignement file
 fasta_d = {}
 table_d = {}
 header_l = []
@@ -61,7 +61,7 @@ df = df[df["coverage"] != 0.0]
 df = df.reset_index()
 df = df.T
 
-# 3. Exclude sites where over ${gaps} of sequences were gaps
+# 3. Exclude sites where over ${gaps}% of sequences were gaps
 alignment_l = []
 seq_no_l = df.loc["seq_no",:].values.tolist()
 for site in range(0, df.shape[1] ):
@@ -135,15 +135,15 @@ elif len(aligned_site_l) == 1:
 	if length > 50:
 		max_n = 0
 	else:
-		print ("There is No continuous alignment: " + str(length) + "aa")
+		print ("There is No continuous alignment: " + str(length) + "aa.")
 		max_n = "NA"
 else:
-	print ("There is No continuous alignment")
+	print ("There is No continuous alignment.")
 
 
-## 5. output (log file and sequence file)
+## 5. Output
 if length == 0:
-	print ("No alignment with enough lengths")
+	print ("There is No alignment with enough lengths.")
 elif length != 0 and max_n !="NA":
 	aligned_site = aligned_site_l[max_n]
 	

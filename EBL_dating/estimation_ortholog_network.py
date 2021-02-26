@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-### shirokaneで年代推定する
-
 import sys, re
 import os
 import time
@@ -93,7 +91,7 @@ def blastn_reader(blastn_f):
 					a_length = df['a_length'].sum() 
 					blastn_d[query_name][subject_name] = [q_length,a_length,flanking]
 	
-	### edge between subject and query
+	### connect edge between subject and query
 	name_l_l = []
 	blastn_l = []
 	blastn_d2 = {}

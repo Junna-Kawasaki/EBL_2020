@@ -13,7 +13,7 @@ age_path = argvs[2]
 borna_species = argvs[3]
 output_path = argvs[4]
 
-## add node attributions: e.g. EBL integration ages
+## add node attributions: e.g., EBL integration ages
 def add_feature_f(s,tree,dic):
 	for leaf in tree:
 		try:
@@ -26,7 +26,7 @@ def add_feature_f(s,tree,dic):
 t = Tree(tree_path, format = 1)
 leaf_l = [i.name for i in t]
 
-# 2. read file about EBL orthologous groups
+# 2. read the file about EBL orthologous groups
 age_d = {}
 for line in open(age_path):
 	group, name = line.strip().split("\t")
@@ -88,7 +88,7 @@ for g in age_d.keys():
 	else:
 		no_leaf +=1
 
-# 4. Calculate genetic distance between nodes
+# 4. Calculate genetic distances among nodes
 spe_u_l = []
 spe_d_l = []
 spe_l = []
@@ -157,7 +157,7 @@ def species_distance(df):
 diverse_d_l, criteria_d_min, criteria_d_max = species_distance(df_d)
 print ("Genetic distance between different extant bornavirus species: " + str(round(criteria_d_min,3)))
 
-## Output: genetic distance between ancient and modern bornaviruses
+## Output: genetic distances between ancient and modern bornaviruses
 reorder = ["carbovirus", "clade1", "clade2", "carbo_EBL1", "carbo_EBL2",
            "orthobornavirus", "clade3", "clade4","clade5",
            "ortho_EBL1", "ortho_EBL2",

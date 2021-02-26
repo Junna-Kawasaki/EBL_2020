@@ -7,7 +7,7 @@ output="output_examples/"
 
 mkdir ${output}
 
-# 1. Calculate genetic distance between nodes in a phylogenetic tree
+# 1. Calculate genetic distances among nodes in a phylogenetic tree
 python \
 	EBL_genetic_distance.py \
 	${input}${tree_file} \

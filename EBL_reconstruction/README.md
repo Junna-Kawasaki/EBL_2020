@@ -1,6 +1,6 @@
 # Identification of EBLs in vertebrate genomic data  
 
-## Description  
+## Descriptions  
 To reconstruct EBL sequences from tBLASTn search results, please try the program: **EBL_reconstruction_batch.sh**.  
 
 - This program provides an example to obtain amino acid sequences of EBLNs in the human genome.  

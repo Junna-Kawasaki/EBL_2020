@@ -17,7 +17,7 @@ argvs = sys.argv
 mafft_f = argvs[1] 
 mapout_f = argvs[2] 
 
-# defined criteria to concate bornavirus-like sequences
+# defined criteria to concatenate bornavirus-like sequences
 domain = re.sub(r".+EBL(.)_.+",r"\1",mafft_f)
 ## [genomic distance, distance of aligned positions to bornaviral proteins]
 threshold_d = {"N": [1000, 300], "P": [1000, 300], "M":[1000, 300], "G":[1000,300], "L":[2000, 650]}
@@ -148,7 +148,7 @@ def list_concat(list_l):
 mrg_pos_l = list_concat(mrg_pos_l)
 mrg_neg_l = list_concat(mrg_neg_l)
 
-## 7. CONCAT: compared genomic distance and aligned position with criteria
+## 7. CONCATATION: compared genomic distance and aligned position with criteria
 dis_pos_cls_l = []
 dis_neg_cls_l = []
 
