@@ -108,9 +108,10 @@ if len(continuous_l) > 1:
 		if in2 == len(continuous_l)-1:
 			aligned_site_l.append(l)
 else:
-	aligned_site_l = continuous_l[0]
+	aligned_site_l = [continuous_l[0]]
 
 ##
+#print (aligned_site_l)
 aligned_site_l = [c for c in aligned_site_l if len(c) > 0]
 length = 50
 if len(aligned_site_l) == 0:
@@ -182,4 +183,3 @@ elif length != 0 and max_n !="NA":
 				f.write(l[0] + "\n")
 				f.write("".join(map(str,l[1:])) + "\n")
 	f.close()
-
