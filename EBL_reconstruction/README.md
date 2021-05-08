@@ -11,4 +11,4 @@ To reconstruct EBL sequences from tBLASTn search results, please try the program
 Because most EBLs were detected as fragmented sequences due to mutations occurring after integration, we reconstructed EBL sequences by concatenating sequences using this script.  
 
 ## Data  
-There is a fasta file containing reconstructed EBL amino acid sequences in "EBL_reconstructed_seq.zip".
+There is a fasta file containing reconstructed EBL amino acid sequences in **"EBL_reconstructed_seq.zip"**.
