@@ -41,5 +41,5 @@ python estimation_ortholog_network.py  \
 **Parameters**  
 - blastn_file: input file obtained from all-against-all sequence comparison by BLASTN  
 - criteria: criteria to construct a sequence network  
-e.g. If we set this value as 0.9, network nodes were connected when their sequence alignment coverage was over 9.0% of the entire sequence length.  
+e.g. If we set this value as 0.09, network nodes were connected when their sequence alignment coverage was over 9.0% of the entire sequence length.  
 - output_file: name of the output file
